@@ -1,9 +1,10 @@
 @charset "UTF-8";
 /* 見出し1の文字サイズ */
 h1 {
-  background-color: green; /* 背景を緑に */
-    color: white;            /* 文字を白に */
   font-size: 100px;
+    background-color: green; /* 背景を緑に */
+    color: white;            /* 文字を白に */
+
 }
 
 /* 見出し2の文字サイズ */
