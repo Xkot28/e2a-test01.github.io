@@ -1,18 +1,18 @@
 @charset "UTF-8";
-/* 見出し1の文字サイズ */
+
+/* 見出し1 */
 h1 {
-  font-size: 100px;
-    background-color: green; /* 背景を緑に */
-    color: white;            /* 文字を白に */
-
+  font-size: 32px;       /* 100px → 32px〜40pxくらいが一般的 */
+  background-color: green;
+  color: white;
 }
 
-/* 見出し2の文字サイズ */
+/* 見出し2 */
 h2 {
-  font-size: 25px;
+  font-size: 24px;       /* 25pxはそのままでもOKです */
 }
 
-/* 段落（本文）の文字サイズ */
+/* 段落（本文） */
 p {
-  font-size: 5px;
+  font-size: 16px;       /* 5px → 16px に修正 */
 }
