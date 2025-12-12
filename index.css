@@ -19,6 +19,16 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* h1の下に置く画像の設定 */
+.title-box img {
+    width: 60%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto 0;
+}
+
 /* セクションタイトル（h2） */
 h2 {
     color: #2e4a2f;
