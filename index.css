@@ -87,38 +87,44 @@ footer {
 
 /* ===== h2 と画像を横並びにするレイアウト ===== */
 
+/* セクション全体（flex 解除） */
 section {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 15px 20px;
   background-color: #fff;
+  padding: 15px 20px;
   margin-bottom: 25px;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-/* h2 の余白調整 */
+/* h2 は上に単独で置く */
 h2 {
-  margin: 0;
-  white-space: nowrap;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
-/* 画像のサイズ管理 */
-section .img-box img {
+/* テキストと画像を横並び */
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* 画像の大きさ調整 */
+.section-content .img-box img {
   width: 200px;
   height: auto;
   border-radius: 6px;
 }
 
-/* スマホ版 */
+/* スマホ用（縦に並ぶ） */
 @media (max-width: 700px) {
-  section {
+  .section-content {
     flex-direction: column;
     text-align: center;
   }
 
-  section .img-box img {
+  .section-content .img-box img {
     width: 80%;
   }
 }
