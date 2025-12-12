@@ -68,29 +68,31 @@ footer {
 }
 
 
-/* テキストと画像を横並び（PC） */
-.content-box {
+.section-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
 }
 
-/* 画像の大きさ */
+.content-box {
+  flex: 1; /* 左側の文章が右側に押しつぶされないようにする */
+}
+
 .img-box img {
   width: 200px;
   height: auto;
   border-radius: 6px;
 }
 
-/* スマホ用（縦並び） */
 @media (max-width: 700px) {
-  .content-box {
+  .section-content {
     flex-direction: column;
     text-align: center;
   }
 
   .img-box img {
     width: 80%;
+    margin: 0 auto 15px;
   }
 }
