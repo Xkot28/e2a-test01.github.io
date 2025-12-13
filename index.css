@@ -61,21 +61,20 @@ section {
   justify-content: center; /* 横方向中央揃え */
 }
 
-/* 左側文章 */
-.content-box {
-  flex: 1; /* 文章部分は残りのスペースを使う */
-}
-
-/* 右側画像 */
-.img-box {
-  flex-shrink: 0; /* 文章に押されて縮まらない */
+.section-content {
   display: flex;
-  flex-direction: column; /* 画像を縦に並べる */
-  justify-content: space-between; /* 上下に均等に配置 */
-  gap: 10px;
-  max-height: 50%; /* 高さを親に合わせる */
+  align-items: stretch; /* 左右の高さを揃える */
+  gap: 20px;            /* 左右の間隔 */
+  justify-content: space-between; /* 左右を端に寄せる */
 }
 
+.img-box {
+  display: flex;
+  flex-direction: column; /* 画像は縦並び */
+  gap: 10px;
+  /* 右寄せのためにflex-shrinkを無効化 */
+  flex-shrink: 0;
+}
 /* 右側画像のサイズ */
 .img-box img {
   width: 50%;
