@@ -73,12 +73,12 @@ section {
   flex-direction: column; /* 画像を縦に並べる */
   justify-content: space-between; /* 上下に均等に配置 */
   gap: 10px;
-  max-height: 100%; /* 高さを親に合わせる */
+  max-height: 50%; /* 高さを親に合わせる */
 }
 
 /* 右側画像のサイズ */
 .img-box img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 6px;
 }
