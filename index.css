@@ -4,6 +4,10 @@ body {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   line-height: 1.7;
 }
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 img {
   max-width: 100%;
   height: auto;
