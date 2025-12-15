@@ -30,10 +30,13 @@ img {
 
 /* ヘッダー */
 .title-box {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0));
-  width: 100vw;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0)
+  );
+  width: 100%;
   height: 100px;
-  margin-left: calc(50% - 50vw);
   padding: 15px;
 }
 /* 出し引きメニュー */
