@@ -8,8 +8,8 @@ body {
 /* スマホ */
 .container {
   max-width: 100%;
+  margin: 0 auto;
 }
-
 /* タブレット */
 @media (min-width: 768px) {
   .container {
