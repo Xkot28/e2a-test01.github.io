@@ -73,7 +73,7 @@ img {
    ========================================= */
 .menu-box {
   display: block;
-  text-align: right;
+  text-align: left; /* 右寄せ → 左寄せに変更 */
   margin-bottom: 15px;
 }
 
