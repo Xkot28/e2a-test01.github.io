@@ -5,11 +5,11 @@ body {
   line-height: 1.7;
 }
 .container {
-  max-width: 300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
