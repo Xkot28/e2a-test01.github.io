@@ -67,6 +67,13 @@ summary::-webkit-details-marker {
 .menu a:visited {
   color: #333;
 }
+.menu p {
+  display: inline;       /* 横並びにする */
+  margin: 0;             /* 上下の余白を消す */
+  font-weight: bold;     /* 太くする場合 */
+  color: #333;           /* リンク色に合わせる場合 */
+  font-size: 16px;       /* 好みで調整 */
+}
 .menu a:hover {
   opacity: 0.7;
 }
